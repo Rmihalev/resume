@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Suranna&display=swap');
+* {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+   }
+body {
+    font-family: 'Roboto', sans-serif ;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #0F141E;
+    background: #F1F1F1;
+    margin: 0;
+    /* padding-left: 15px; */
+    /* padding-top: 10px; */
+    }   
+.container  {
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    }
+.avatar {
+    width:150px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin-right: 30px;
+}
+.info {
+    display: flex;
+}
+/* .info-text { */
+   /* display: inline-block; */
+/* } */
+.info-text p {
+    font-style: italic;
+    font-weight: bold;
+    color: #86898f;
+    margin:0;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.card {
+    padding: 15px 20px;
+    border-radius: 20px;
+        }
+.card h2 {
+    margin-bottom: 10px;
+}
+.hobby {
+    background: #e4e8ff;
+    border: #e4e8ff solid 2px;
+    max-width: 500px;
+    }
+.list {
+    margin:0;
+    padding:0 0 0 20px;
+    }
+.list li {
+    margin: 0 0 5px 0;
+}
+.work {
+    background: #ede4ff;
+    border: #ede4ff solid 2px;
+    max-width: 500px;
+    }    
+.table {
+    width: 100%;
+    margin: 0;
+}
+.table th {
+    text-align: left;
+    padding-bottom: 5px;
+}
+.table td {
+    text-align: left;
+    padding-bottom: 2px;
+}
+.table td:hover {
+    background: white;
+}
+a {
+    color:#333;
+    }        
+a:hover {
+    color:orange;
+}
+a:active {
+    color:blue;
+}
+.input {
+    margin: 0;
+}
+.input label,input {
+    margin-bottom: 10px;
+}
+.btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    background: #444;
+    color:#fff;
+    }
+.btn:hover {
+    opacity:0.8;
+}
+@media (max-width: 900px) {
+    body {
+        font-size: 12px;
+    }
+    .info {
+        display: block;
+    }
+}
